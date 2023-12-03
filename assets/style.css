@@ -1,4 +1,159 @@
-html {
+.navbar {
+  background-color: #10053d !important;
+  z-index: 1;
+}
+
+.nav-links {
+  color: gold;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  width: 100%;
   height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.start-game {
+  display: flex;
+  justify-content: center;
+}
+
+.start-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-top: 335px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+}
+
+.rules-wrapper {
+  display: grid;
+  position: relative;
+  place-items: center;
+  height: 100vh;
+}
+
+.rules {
+  position: relative;
+  width: 70%;
+  height: 80%;
+  border: 5px solid gold;
+  z-index: 2;
+  background-color: black;
+}
+
+.rules-header,
+.rules-text {
+  color: #fff;
+  text-align: center;
+}
+
+.start-game1 {
+  display: flex;
+  justify-content: center;
+}
+
+.start-button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-top: -20px;
+  color: #fff;
+  background-color: #000;
+  position: absolute;
+}
+
+/* Game Area */
+
+.background-image1 {
+  background-image: url(/assets/images/background-image.png);
+  height: 220px;
+  object-fit: contain;
   width: 100%;
 }
+
+
+
+/* Answer Section */
+
+#question-answer {
+  background-color: black;
+  height: 300px;
+  border-top: grey solid 3px;
+
+}
+
+.question-box {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border-radius: 140px / 50px;
+  border: silver solid 3px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.answer-wrapper {
+  height: 10px;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 70px 70px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.answer-option {
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+#score-display {
+  height: 40px;
+}
+
+.score-display {
+  background-color: green;
+  z-index: 50;
+  color: #000;
+  font-size: 22px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.no-score-display {
+  background-color: red;
+  z-index: 50;
+  color: #000;
+  font-size: 18px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Media Queries */

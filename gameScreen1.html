@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/style.css" />
     <title>Document</title>
   </head>
+
   <body>
     <section>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,28 +43,29 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
           </ul>
         </div>
       </nav>
     </section>
-    <!--Jumbotron Section-->
     <section>
-      <div id="jumbotron">
-        <img
-          src="/assets/images/Who-Wants-To-Be-A-Millionaire-PowerPoint-Game-Template-Download-1.png"
-          alt="millionaire"
-          class="background-image"
-        />
-      </div>
-      <div class="start-game">
-        <button class="start-button">Start!</button>
-      </div>
+      <div class="background-image1"></div>
     </section>
-
+    <section>
+      <section id="question-answer">
+        <div class="question-box"></div>
+        <div class="container answer-wrapper">
+            <div class="row">
+                <div class="col d-flex justify-content-center answer-option"></div>
+                <div class="col d-flex justify-content-center answer-option"></div>
+                <div class="w-100"></div>
+                <div class="col d-flex justify-content-center answer-option"></div>
+                <div class="col d-flex justify-content-center answer-option"></div>
+            </div>
+        </div>
+      </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="assets/script.js"></script>
+    <script src="assets/game.js"></script>
+    </body>
+    </html>
   </body>
 </html>
