@@ -162,14 +162,21 @@ init();
 const totalQuestions = 10;
 let questionCounter = 0;
 let score = 0;
+let lives = 3;
 
 function increaseScore() {
   let scoreContainer = $('.score-tracker');
   score++;
   scoreContainer.text(`Score: ${score}`);
 };
-  
-  
+
+function loseLife() {
+  let livesContainer = $('.lives-tracker');
+  lives--;
+livesContainer.text(`Lives: ${lives}`);
+};
+
+
   function checkAnswerAndGenerateNewQuestion(selectedAnswer) {
     var currentQuestion = myQuestions[randomIndex];
     var correctAnswer = currentQuestion.correctAnswer;
@@ -182,18 +189,22 @@ function increaseScore() {
         setTimeout(function () {
             $("#score-display").removeClass("score-display");
           scoreWrapper.text("");
-           go(x);
         }, 2000);
         console.log("Correct!");
     } else {
+       loseLife();
         var scoreWrapper = $('#score-display');
         scoreWrapper.empty();
         scoreWrapper.addClass('no-score-display');
         scoreWrapper.text("Incorrect! The correct answer is: " + correctAnswer);
         setTimeout(function () {
             $("#score-display").removeClass("no-score-display");
-          scoreWrapper.text("");
+          scoreWrapper.text("");  
         }, 2000);
+    };
+
+    if (lives === 0) {
+       $('#question-answer').hide();
     };
 
     questionCounter++;
