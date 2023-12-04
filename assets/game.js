@@ -123,6 +123,7 @@ const myQuestions = [
     },
 ];
 
+
 function generateRandomIndex() {
     var randomIndex = Math.floor(Math.random() * myQuestions.length);
     return randomIndex;
@@ -160,18 +161,28 @@ init();
 
 const totalQuestions = 10;
 let questionCounter = 0;
+let score = 0;
 
-function checkAnswerAndGenerateNewQuestion(selectedAnswer) {
+function increaseScore() {
+  let scoreContainer = $('.score-tracker');
+  score++;
+  scoreContainer.text(`Score: ${score}`);
+};
+  
+  
+  function checkAnswerAndGenerateNewQuestion(selectedAnswer) {
     var currentQuestion = myQuestions[randomIndex];
     var correctAnswer = currentQuestion.correctAnswer;
-
     if (selectedAnswer === correctAnswer) {
+        increaseScore();
         var scoreWrapper = $('#score-display');
         scoreWrapper.empty();
         scoreWrapper.addClass('score-display');
         scoreWrapper.text("Correct Answer");
         setTimeout(function () {
             $("#score-display").removeClass("score-display");
+          scoreWrapper.text("");
+           go(x);
         }, 2000);
         console.log("Correct!");
     } else {
@@ -181,13 +192,14 @@ function checkAnswerAndGenerateNewQuestion(selectedAnswer) {
         scoreWrapper.text("Incorrect! The correct answer is: " + correctAnswer);
         setTimeout(function () {
             $("#score-display").removeClass("no-score-display");
+          scoreWrapper.text("");
         }, 2000);
     };
 
     questionCounter++;
 
     if (questionCounter == totalQuestions) {
-        $('#answer-wrapper').hide();
+        $('#question-answer').hide();
         $('question-wrapper').hide();
     } else {
         generateNewQuestion();
