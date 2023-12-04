@@ -9,7 +9,7 @@
 }
 
 #play-again{
-  margin-left: -100px;
+  margin-left: -50px;
 }
 
 .nav-link {
@@ -183,8 +183,71 @@
 }
 
 .lives-tracker{
-  margin-left: 180px;
-  margin-top: -35px;
+  padding-right:20px;
+  margin-top: -36px;
+  height: 30px;
+  position: absolute;
+  right: 0;
 }
 
 /* Media Queries */
+
+@media only screen and (min-width: 616px) {
+
+  .lives-tracker{
+    padding-right:20px;
+    margin-top: -42px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+  }
+
+  #play-again{
+    margin-left: -400px;
+  }
+
+  .answer-wrapper{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 80px 70px;
+    grid-row: auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    width: 330px;
+    padding-top: 30px;
+  }
+}
+
+  @media only screen and (min-width: 878px) {
+
+    .lives-tracker{
+      padding-right:20px;
+      margin-top: -46px;
+      height: 30px;
+      position: absolute;
+      right: 0;
+    }
+    
+    #play-again{
+      margin-left: -620px;
+    }
+  }
+
+@media only screen and (min-width: 991px) {
+  
+  #play-again{
+      margin-left: 0px;
+    }
+  }
+
+@media only screen and (min-width: 1109px) {
+
+  .lives-tracker{
+      padding-right:20px;
+      margin-top: -50px;
+      height: 30px;
+      position: absolute;
+      right: 0;
+    }
+  }
+
