@@ -1,5 +1,4 @@
 
-
 .navbar {
   background-color: #10053d !important;
   z-index: 1;
@@ -22,22 +21,21 @@
   color: yellow;
 }
 
-.rules-text{
-  font-size: 16px;
-}
-
 #jumbotron{
   height: 550px;
   width:100%;
+  background-color: #02024c
 }
 
-#jumbotron-image {
-  background-image: url(/assets/images/home-screen-small.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height:550px;
-  width:100%;
+.sticker{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .start-button-wrapper{
@@ -48,11 +46,11 @@
 .start-button {
   z-index: 2;
   color: #fff;
-  background-color: transparent;
-  border: none;
   background-color: #000;
   width: 90px;
-  margin: 0;
+  margin-top: 350px;
+  border-radius: 12px;
+  border: 2px solid silver;
 }
 
 .rules-wrapper {
@@ -62,18 +60,18 @@
   display: grid;
   position: relative;
   place-items: center;
-  height: 100vh;
-  margin-top: 0px;
+  height: 700px;
+  margin-top: -80px;
 }
 
 .rules {
   position: relative;
   width: 90%;
-  height: 70%;
+  height: 75%;
   border: 5px solid gold;
   z-index: 2;
   background-color: black;
-  margin-top: -140px;
+  margin-top: 30px;
 }
 
 .rules-header,
@@ -84,7 +82,7 @@
 }
 
 .rules-text{
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .start-game1 {
@@ -93,7 +91,7 @@
 }
 
 .start-button1 {
-  margin-top: -160px;
+  margin-top: -60px;
   color: #fff;
   background-color: #000;
   position: absolute;
@@ -225,6 +223,13 @@
 
 /* Media Queries */
 
+@media only screen and (min-width: 550px) {
+  .sticker{
+    width: 400px;
+    height: 400px;
+  }
+}
+
 @media only screen and (min-width: 630px) {
 
   .lives-tracker{
@@ -239,6 +244,8 @@
     margin-left: -400px;
   }
 
+  
+
   .answer-wrapper{
     background-color: #000;
     display: grid;
@@ -249,53 +256,8 @@
     width: 330px;
     padding-top: 30px;
   }
-
-  .start-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-    margin-top: 294px;
-    background-color: #000;
-    width: 90px;
-  }
 }
 
-@media only screen and (min-width: 785px) {
-
-  .start-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-    margin-top: 294px;
-    background-color: #000;
-    width: 90px;
-  }
-}
-
-  @media only screen and (min-width: 817px) {
-
-    .start-button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 2;
-      color: #fff;
-      background-color: transparent;
-      border: none;
-      margin-top: 296px;
-      background-color: #000;
-      width: 90px;
-    }
-
-    
 
   @media only screen and (min-width: 878px) {
 
