@@ -204,14 +204,15 @@ livesContainer.text(`Lives: ${lives}`);
     };
 
     if (lives === 0) {
-       $('#question-answer').hide();
+      $('.question-box').hide();
+      $('.answer-wrapper').hide();
+       $('#question-answer').addClass('end-game');
     };
 
     questionCounter++;
 
     if (questionCounter == totalQuestions) {
-        $('#question-answer').hide();
-        $('question-wrapper').hide();
+        
     } else {
         generateNewQuestion();
         $('.answer-option').off('click').on('click', function () {

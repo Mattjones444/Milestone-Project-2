@@ -20,6 +20,11 @@
   color: yellow;
 }
 
+.rules-text{
+  font-size: 16px;
+  
+}
+
 .background-image {
   background-repeat: no-repeat;
   width: 100%;
@@ -44,7 +49,7 @@
   color: #fff;
   background-color: transparent;
   border: none;
-  margin-top: 585px;
+  margin-top: 294px;
   background-color: #000;
   width: 90px;
 }
@@ -54,12 +59,13 @@
   position: relative;
   place-items: center;
   height: 100vh;
+  margin-top: -20px;
 }
 
 .rules {
   position: relative;
   width: 70%;
-  height: 80%;
+  height: 90%;
   border: 5px solid gold;
   z-index: 2;
   background-color: black;
@@ -81,7 +87,7 @@
   justify-content: center;
   align-items: center;
   z-index: 2;
-  margin-top: -20px;
+  margin-top: 10px;
   color: #fff;
   background-color: #000;
   position: absolute;
@@ -91,7 +97,7 @@
 
 .background-image1 {
   background-image: url(/assets/images/background-image.png);
-  height: 300px;
+  height: 200px;
   object-fit: contain;
   width: 100%;
   position: reltive;
@@ -190,9 +196,17 @@
   right: 0;
 }
 
+.end-game{
+  background-image: url(/assets/images/end-game-image.png);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  display:flex;
+  justify-content: center;
+}
+
 /* Media Queries */
 
-@media only screen and (min-width: 616px) {
+@media only screen and (min-width: 630px) {
 
   .lives-tracker{
     padding-right:20px;
@@ -216,7 +230,53 @@
     width: 330px;
     padding-top: 30px;
   }
+
+  .start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    margin-top: 294px;
+    background-color: #000;
+    width: 90px;
+  }
 }
+
+@media only screen and (min-width: 785px) {
+
+  .start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    margin-top: 294px;
+    background-color: #000;
+    width: 90px;
+  }
+}
+
+  @media only screen and (min-width: 817px) {
+
+    .start-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      color: #fff;
+      background-color: transparent;
+      border: none;
+      margin-top: 296px;
+      background-color: #000;
+      width: 90px;
+    }
+
+    
 
   @media only screen and (min-width: 878px) {
 
@@ -231,6 +291,16 @@
     #play-again{
       margin-left: -620px;
     }
+
+    .background-image1 {
+      background-image: url(/assets/images/larger-background.jpeg);
+      height: 400px;
+      max-width: 100%;
+      position: reltive;
+      z-index: -1;
+      background-size:cover;
+      background-repeat: no-repeat;
+    }
   }
 
 @media only screen and (min-width: 991px) {
@@ -239,6 +309,7 @@
       margin-left: 0px;
     }
   }
+  
 
 @media only screen and (min-width: 1109px) {
 
@@ -249,5 +320,16 @@
       position: absolute;
       right: 0;
     }
+
+  .background-image1 {
+    background-image: url(/assets/images/larger-background.jpeg);
+    height: 500px;
+    max-width: 100%;
+    position: reltive;
+    z-index: -1;
+    background-size:cover;
+    background-repeat: no-repeat;
   }
+  }
+  
 
