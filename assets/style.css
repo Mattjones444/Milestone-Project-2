@@ -112,6 +112,8 @@
   background-color: black;
   height: 450px;
   border-top: grey solid 3px;
+  color: #fff;
+  font-size: 27px;
 
 }
 
@@ -196,12 +198,21 @@
   right: 0;
 }
 
-.end-game{
+.end-game-lose{
   background-image: url(/assets/images/end-game-image.png);
   background-repeat: no-repeat;
   background-size: 100% 200px;
   display:flex;
   justify-content: center;
+}
+
+.end-game-win{
+  background-image: url(/assets/images/end-game-image.png);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  display:flex;
+  justify-content: center;
+  
 }
 
 /* Media Queries */

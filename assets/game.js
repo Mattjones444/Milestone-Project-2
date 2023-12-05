@@ -206,12 +206,13 @@ livesContainer.text(`Lives: ${lives}`);
     if (lives === 0) {
       $('.question-box').hide();
       $('.answer-wrapper').hide();
-       $('#question-answer').addClass('end-game');
+       $('#question-answer').addClass('end-game-lose');
     };
 
     questionCounter++;
 
     if (questionCounter == totalQuestions) {
+      $('#question-answer').text("Well Done! You got "  + score +  "out of " + totalQuestions + " questions correct!");
         
     } else {
         generateNewQuestion();
