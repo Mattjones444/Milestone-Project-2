@@ -136,7 +136,7 @@
       font-size: 30px;
 }
 
-.answer-wrapper {
+/*.answer-wrapper {
   background-color: #000;
   display: grid;
   grid-template-columns: 70px 70px;
@@ -160,6 +160,29 @@
   width: 120px;
   height: 90px;
 
+} */
+
+.answer-wrapper {
+  background-color: #000;
+  grid-template-columns: 70px 70px;
+  grid-gap: 10px 20px;
+  width: 280px;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.answer-option {
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  width: 120px;
+  height: 90px;
 }
 
 .answer-option:hover{

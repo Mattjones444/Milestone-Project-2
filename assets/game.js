@@ -1,6 +1,6 @@
 /* Array of Questions */
 
-const myQuestions = [
+/*const myQuestions = [
     {
         question: "3 x 3",
         answers: {
@@ -121,10 +121,135 @@ const myQuestions = [
         },
         correctAnswer: "36",
     },
-];
+]; */
 
 
-function generateRandomIndex() {
+let operand1 = 3;
+let operand2;
+const totalQuestions = 10;
+let questionCounter = 0;
+let score = 0;
+let lives = 3;
+
+function generateQuestion() {
+  let operand2 = Math.floor(Math.random() * 13);
+  let questionText = operand1 + " x " + operand2;
+return questionText;
+};
+
+$(document).ready(function() {
+generateQuestion();
+  let question = generateQuestion();
+ $(".question-box").text(question);
+    function generateRandomMultipleOfThree() {
+      const randomNumber = Math.floor(Math.random() * 10) + 1;
+      return Math.ceil(randomNumber / 3) * 3;
+    };
+
+    function generateQuestionAndOptions() {
+      const operand1 = 3;
+      const operand2 = Math.floor(Math.random() * 13);
+      const correctAnswer = operand1 * operand2;
+      const incorrectAnswer1 = generateRandomMultipleOfThree();
+      const incorrectAnswer2 = generateRandomMultipleOfThree();
+       const incorrectAnswer3 = generateRandomMultipleOfThree();
+      
+      const answerOptions = [correctAnswer, incorrectAnswer1, incorrectAnswer2, incorrectAnswer3];
+      answerOptions.sort(() => Math.random() - 0.5);
+
+      const questionText = operand1 + " x " + operand2;
+
+      $(".question-box").text(questionText);
+      $(".answer-option:eq(0)").text(answerOptions[0]);
+      $(".answer-option:eq(1)").text(answerOptions[1]);
+      $(".answer-option:eq(2)").text(answerOptions[2]);
+      $(".answer-option:eq(3)").text(answerOptions[3]);
+    }
+    generateQuestionAndOptions();
+
+  function calculateAnswer(){
+    const correctAnswer = operand1 * operand2;
+    return correctAnswer;
+  };
+
+   const correctAnswer = calculateAnswer();
+
+    $(".answer-option").on("click", function() {
+      calculateAnswer();
+      const selectedAnswer = $(this).text();
+      console.log(selectedAnswer);
+      console.log(correctAnswer);
+      if (selectedAnswer === correctAnswer) {
+        console.log("Correct!");
+      } else {
+        console.log("Incorrect!");
+      }
+      generateQuestionAndOptions();
+    })});
+
+function increaseScore() {
+  let scoreContainer = $('.score-tracker');
+  score++;
+  scoreContainer.text(`Score: ${score}`);
+};
+
+function loseLife() {
+  let livesContainer = $('.lives-tracker');
+  lives--;
+livesContainer.text(`Lives: ${lives}`);
+};
+
+/*function checkAnswerAndGenerateNewQuestion(selectedAnswer) {
+    var currentQuestion = myQuestions[randomIndex];
+    var correctAnswer = currentQuestion.correctAnswer;
+    if (selectedAnswer === correctAnswer) {
+        increaseScore();
+        var scoreWrapper = $('#score-display');
+        scoreWrapper.empty();
+        scoreWrapper.addClass('score-display');
+        scoreWrapper.text("Correct Answer");
+        setTimeout(function () {
+            $("#score-display").removeClass("score-display");
+          scoreWrapper.text("");
+        }, 2000);
+        console.log("Correct!");
+    } else {
+       loseLife();
+        var scoreWrapper = $('#score-display');
+        scoreWrapper.empty();
+        scoreWrapper.addClass('no-score-display');
+        scoreWrapper.text("Incorrect! The correct answer is: " + correctAnswer);
+        setTimeout(function () {
+            $("#score-display").removeClass("no-score-display");
+          scoreWrapper.text("");  
+        }, 2000);
+    };
+
+    if (lives === 0) {
+      $('.question-box').hide();
+      $('.answer-wrapper').hide();
+       $('#question-answer').addClass('end-game-lose');
+    };
+
+    questionCounter++;
+
+    if (questionCounter == totalQuestions) {
+      $('#question-answer').text("Well Done! You got "  + score +  "out of " + totalQuestions + " questions correct!");
+
+    } else {
+        generateNewQuestion();
+        $('.answer-option').off('click').on('click', function () {
+            var selectedAnswer = $(this).text();
+            checkAnswerAndGenerateNewQuestion(selectedAnswer);
+        });
+    };
+};
+
+
+
+
+
+ /*function generateRandomIndex() {
     var randomIndex = Math.floor(Math.random() * myQuestions.length);
     return randomIndex;
 };
@@ -227,4 +352,5 @@ livesContainer.text(`Lives: ${lives}`);
 $('.answer-option').on('click', function () {
     var selectedAnswer = $(this).text();
     checkAnswerAndGenerateNewQuestion(selectedAnswer);
-});
+});*/
+
