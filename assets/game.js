@@ -130,6 +130,7 @@ const totalQuestions = 10;
 let questionCounter = 0;
 let score = 0;
 let lives = 3;
+let correctAnswer;
 
 function generateQuestion() {
   let operand2 = Math.floor(Math.random() * 13);
@@ -147,9 +148,9 @@ generateQuestion();
     };
 
     function generateQuestionAndOptions() {
-      const operand1 = 3;
-      const operand2 = Math.floor(Math.random() * 13);
-      const correctAnswer = operand1 * operand2;
+     operand1 = 3;
+     operand2 = Math.floor(Math.random() * 13);
+       correctAnswer = operand1 * operand2;
       const incorrectAnswer1 = generateRandomMultipleOfThree();
       const incorrectAnswer2 = generateRandomMultipleOfThree();
        const incorrectAnswer3 = generateRandomMultipleOfThree();
@@ -168,17 +169,15 @@ generateQuestion();
     generateQuestionAndOptions();
 
   function calculateAnswer(){
-    const correctAnswer = operand1 * operand2;
+     let correctAnswer = operand1 * operand2;
     return correctAnswer;
   };
-
-   const correctAnswer = calculateAnswer();
+   
+  correctAnswer = calculateAnswer();
 
     $(".answer-option").on("click", function() {
       calculateAnswer();
       const selectedAnswer = $(this).text();
-      console.log(selectedAnswer);
-      console.log(correctAnswer);
       if (selectedAnswer === correctAnswer) {
         console.log("Correct!");
       } else {
