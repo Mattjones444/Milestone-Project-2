@@ -150,7 +150,7 @@ generateQuestion();
     function generateQuestionAndOptions() {
      operand1 = 3;
      operand2 = Math.floor(Math.random() * 13);
-       correctAnswer = operand1 * operand2;
+        correctAnswer = operand1 * operand2;
       const incorrectAnswer1 = generateRandomMultipleOfThree();
       const incorrectAnswer2 = generateRandomMultipleOfThree();
        const incorrectAnswer3 = generateRandomMultipleOfThree();
@@ -169,23 +169,37 @@ generateQuestion();
     generateQuestionAndOptions();
 
   function calculateAnswer(){
-     let correctAnswer = operand1 * operand2;
+     correctAnswer = operand1 * operand2;
     return correctAnswer;
   };
-   
-  correctAnswer = calculateAnswer();
 
+  function increaseScore() {
+    let scoreContainer = $('.score-tracker');
+    score++;
+    scoreContainer.text(`Score: ${score}`);
+  };
+
+  function loseLife() {
+    let livesContainer = $('.lives-tracker');
+    lives--;
+  livesContainer.text(`Lives: ${lives}`);
+  };
+  
     $(".answer-option").on("click", function() {
       calculateAnswer();
-      const selectedAnswer = $(this).text();
-      if (selectedAnswer === correctAnswer) {
-        console.log("Correct!");
-      } else {
-        console.log("Incorrect!");
+      let selectedAnswer = $(this).text();
+      let selectedAnswerNumber = parseInt(selectedAnswer, 10);
+      if (selectedAnswerNumber === correctAnswer) {
+        increaseScore();
+        generateQuestionAndOptions();
+       
+      } else {loseLife();
+      
       }
       generateQuestionAndOptions();
     })});
 
+/*
 function increaseScore() {
   let scoreContainer = $('.score-tracker');
   score++;
@@ -196,7 +210,7 @@ function loseLife() {
   let livesContainer = $('.lives-tracker');
   lives--;
 livesContainer.text(`Lives: ${lives}`);
-};
+};*/
 
 /*function checkAnswerAndGenerateNewQuestion(selectedAnswer) {
     var currentQuestion = myQuestions[randomIndex];
