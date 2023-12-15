@@ -142,7 +142,7 @@ return and beat their score.
 \\### \\\*\\\*Home\\\*\\\*
 
 \![Home-wireframe (full
-size)\](/assets/readme/homepage-browser.png)
+size)\](/assets/readMe/homepage-browser.png)
 
 \![Home-wireframe (full
 size)\](/assets/readme/homepage-mobile.png)
