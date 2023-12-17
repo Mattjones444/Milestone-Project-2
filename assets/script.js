@@ -28,7 +28,7 @@ for (var i = 0; i < bubblyButtons.length; i++) {
 }
 
 /* Cursor Effects*/
-
+/* 
 var colour="random"; // "random" can be replaced with any valid colour ie: "red"...
 var sparkles=100;// increase of decrease for number of sparkles falling
 
@@ -287,4 +287,4 @@ function newColour() {
   c[2]=Math.floor(Math.random()*(256-c[1]/2));
   c.sort(function(){return (0.5 - Math.random());});
   return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
-};
+};*/
