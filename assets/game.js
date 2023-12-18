@@ -117,6 +117,7 @@ generateQuestion();
       generateQuestionAndOptions();
     });
   });
+
 var colour="#00baff";
 var sparkles=120;
 
