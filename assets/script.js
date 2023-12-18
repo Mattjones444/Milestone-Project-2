@@ -29,7 +29,7 @@ for (var i = 0; i < bubblyButtons.length; i++) {
 }
 
 /* Cursor Effects*/
-
+/*
 var colour="#00baff";
 var sparkles=120;
 
@@ -190,6 +190,7 @@ function createDiv(height, width) {
   div.style.overflow="hidden";
   div.style.backgroundColor=colour;
   return (div);
-}
+}*/
+
 
 

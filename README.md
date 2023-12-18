@@ -1,6 +1,6 @@
 \\# Who Wants to Be a Times table Millionaire Responsive Website/Game
 
-[\![Website Mock Up\](/assets/readme/readme-mockup.jpg)]{.mark}
+[\![Website Mock Up\](/assets/readme/mockup.jpg)]
 
 \\# Purpose
 
@@ -548,6 +548,8 @@ follows:
 
 5\\. Click on the link labelled \'Visit Site\' to go to the live
 deployed page.
+
+Due to issues with Codeanywhere during the creation of this project, I decided to move to use Replit as the cloud IDE. Due to this, the project was originally linked to a separate Github repo, which can be found at https://github.com/Mattjones444/TimesTablesTest.git
 
 \\\_\\\_\\\_
 
