@@ -8,28 +8,9 @@ $(".start-button1").on("click", function () {
     window.location.href = "gameScreen1.html";
 });
 
-/* Animate Buttons*/
-
-var animateButton = function(e) {
-
-  e.preventDefault;
-  //reset animation
-  e.target.classList.remove('animate');
-
-  e.target.classList.add('animate');
-  setTimeout(function(){
-    e.target.classList.remove('animate');
-  },700);
-};
-
-var bubblyButtons = document.getElementsByClassName("bubbly-button");
-
-for (var i = 0; i < bubblyButtons.length; i++) {
-  bubblyButtons[i].addEventListener('click', animateButton, false);
-}
 
 /* Cursor Effects*/
-/*
+
 var colour="#00baff";
 var sparkles=120;
 
@@ -190,7 +171,7 @@ function createDiv(height, width) {
   div.style.overflow="hidden";
   div.style.backgroundColor=colour;
   return (div);
-}*/
+}
 
 
 

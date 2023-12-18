@@ -11,7 +11,7 @@ function generateQuestion() {
   let operand2 = Math.floor(Math.random() * 13);
   let questionText = operand1 + " x " + operand2;
 return questionText;
-};
+}
 
 $(document).ready(function() {
 generateQuestion();
@@ -20,7 +20,7 @@ generateQuestion();
     function generateRandomMultipleOfThree() {
       const randomNumber = Math.floor(Math.random() * 10) + 1;
       return Math.ceil(randomNumber / 3) * 3;
-    };
+    }
 
     function generateQuestionAndOptions() {
      operand1 = 3;
@@ -29,7 +29,6 @@ generateQuestion();
       const incorrectAnswer1 = generateRandomMultipleOfThree();
       const incorrectAnswer2 = generateRandomMultipleOfThree();
        const incorrectAnswer3 = generateRandomMultipleOfThree();
-      
       const answerOptions = [correctAnswer, incorrectAnswer1, incorrectAnswer2, incorrectAnswer3];
       answerOptions.sort(() => Math.random() - 0.5);
 
@@ -46,58 +45,52 @@ generateQuestion();
   function calculateAnswer(){
      correctAnswer = operand1 * operand2;
     return correctAnswer;
-  };
+  }
 
   function increaseScore() {
-    let scoreContainer = $('.score-tracker');
+    let scoreContainer = $(".score-tracker");
     score++;
     scoreContainer.text(`Score: ${score}`);
-  };
+  }
 
   function loseLife() {
-    let livesContainer = $('.lives-tracker');
+    let livesContainer = $(".lives-tracker");
     lives--;
   livesContainer.text(`Lives: ${lives}`);
-  };
+  }
 
   function showCorrect(){
-    var scoreWrapper = $('#score-display');
+    var scoreWrapper = $("#score-display");
     scoreWrapper.empty();
-    scoreWrapper.addClass('score-display');
+    scoreWrapper.addClass("score-display");
     scoreWrapper.text("Correct Answer");
     setTimeout(function () {
         $("#score-display").removeClass("score-display");
       scoreWrapper.text("");
     }, 2000);
-  };
+  }
 
   function showIncorrect(){
-    var scoreWrapper = $('#score-display');
+    var scoreWrapper = $("#score-display");
     scoreWrapper.empty();
-    scoreWrapper.addClass('no-score-display');
+    scoreWrapper.addClass("no-score-display");
     scoreWrapper.text("Incorrect! The correct answer is: " + correctAnswer);
     setTimeout(function () {
         $("#score-display").removeClass("no-score-display");
-      scoreWrapper.text("");  
-    }, 2000); 
-  };
+scoreWrapper.text("");},2000);
+  }
 
  function livesEnd() {
     if (lives === 0) {
-      $('.question-box').hide();
-      $('.answer-wrapper').hide();
-       $('#question-answer').addClass('end-game-lose');
-}};
-
-  
-
+      $(".question-box").hide();
+      $(".answer-wrapper").hide();
+       $("#question-answer").addClass("end-game-lose");
+}}
   function questionEnd() {
     if (questionCounter == totalQuestions) {
-      $('#question-answer').text("Well Done! You got "  + score +  "out of " + totalQuestions + " questions correct!");
-    }};
-
+      $("#question-answer").text("Well Done! You got "  + score +  "out of " + totalQuestions + " questions correct!");
+    }}
   questionCounter++;
-
     $(".answer-option").on("click", function() {
       calculateAnswer();
       let selectedAnswer = $(this).text();
@@ -115,9 +108,10 @@ generateQuestion();
       }
       questionCounter++;
       generateQuestionAndOptions();
-    });
-  });
+    })
+  })
 
+/* Cursor Effects */
 var colour="#00baff";
 var sparkles=120;
 
