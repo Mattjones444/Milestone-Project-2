@@ -1,6 +1,6 @@
 \\# Who Wants to Be a Times table Millionaire Responsive Website/Game
 
-[\![Website Mock Up\](/assets/readMe/mockup.jpg)]
+[\![Website Mock Up\](/assets/readme/mockup.jpg)]
 
 
 \\# Purpose
