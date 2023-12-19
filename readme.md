@@ -142,20 +142,20 @@ return and beat their score.
 
 \\### \\\*\\\*Home\\\*\\\*
 
-\![Home-wireframe](/assets/readme/homepage-browser.png)
+![Home-wireframe](/assets/readme/homepage-browser.png)
 
-\![Home-wireframe](/assets/readme/homepage-mobile.png)
+![Home-wireframe](/assets/readme/homepage-mobile.png)
 
 \\### \\\*\\\*Rules\\\*\\\*
 
-\![Rules page wireframe](/assets/readme/rules-browser.png)
+![Rules page wireframe](/assets/readme/rules-browser.png)
 
-\![Rules page wireframe](/assets/readme/rules-mobile.png)
+![Rules page wireframe](/assets/readme/rules-mobile.png)
 
 \\### \\\*\\\*Game Screen\\\*\\\*
 
-\![Game screen wireframe](/assets/readme/game-browser.png)
-\![Game screen wireframe](/assets/readme/game-mobile.png)
+![Game screen wireframe](/assets/readme/game-browser.png)
+![Game screen wireframe](/assets/readme/game-mobile.png)
 
 \\\_\\\_\\\_
 
@@ -203,7 +203,7 @@ text as it is light and easy to read.
 \\### Images
 
 The images in this project were sourced from
-\[Google.com\]\]([[https://www.google.co.uk]{.underline}](https://www.google.co.uk))
+\[Google.com\]\]([[https://www.google.co.uk](https://www.google.co.uk))
 using a search that included images free to use with no rights
 restrictions. They were specifically selected to correlate with the main
 website colour palette and increase the aesthetic impact of the design.
@@ -228,10 +228,7 @@ to be done to make it stand out further.
 \\#### Buttons
 
 Each button offers a similar growing effect described above combined
-with a change of its background colour: it is black by default, and it
-turns Double Spanish White when hovered over with a mouse. To provide
-better performance on mobile devices, it was implemented only for
-screens larger than 978px.
+with a change of its box shadow: it is black by default. The box shadow size decreases when the button is hovered over and the button's box shadow size decreases and increases on click, to give the user the impression that the button has been depressed. 
 
 \\#### Navbar Hover effect
 
@@ -248,10 +245,10 @@ Blue to subtly highlight the item without compromising legibility.
 
 \\- \\\*\\\*Navigation bar\\\*\\\*
 
-\![navbar\](/assets/readme/navbar.png)
+\![navbar](/assets/readme/navbar.png)
 
 Each page has a full responsive navigation bar at the top. It includes
-the [Logo]{.mark} (which is a link to the Home page) and the links to
+the [Logo] (which is a link to the Home page) and the links to
 Home and game pages. It retains an identical layout throughout the
 website across all devices to ensure simple and intuitive navigation.
 The Navbar will allow the user to reach any section of the website from
@@ -262,9 +259,9 @@ For mobile devices, it transforms into a compact \"hamburger menu\".
 This dropdown menu features the same items, displayed as a column on a
 semi-transparent background.
 
-\\- \\\*\\\*Hero image\\\*\\\*
+\\- \\\*\\\*Welcome Image\\\*\\\*
 
-\![heroimage\](/assets/readme/heroimage.png)
+\![welcomeimage](/assets/readme/welcomeimage.png)
 
 This section is the first thing the user sees opening each page, it is
 an eye-catching image for aesthetical stimulation, which also helps to
@@ -273,9 +270,9 @@ strong. On the Home page, the image gives the use a familiar image to
 hook into, which uses their prior knowledge of the TV show to give them
 context about how the game might function.
 
-\\- \\\*\\\*Why Choose Us section\\\*\\\*
+\\- \\\*\\\*Rules section\\\*\\\*
 
-\![whychooseus\](/assets/readme/whychooseus.png)
+\![rulessection](/assets/readme/rulessection.png)
 
 The ethos section will introduce the user to the concept of Pocket
 Tutor, as it is slightly different to the usual way tutoring works. The
@@ -283,9 +280,9 @@ user will be introduced to the concept, given a little preview of the
 benefits of signing up to Pocket Tutor and invited to learn more by
 accessing the sign up page, which will book a call with the Sales Team.
 
-\\- \\\*\\\*Benefits of Online Tutoring section\\\*\\\*
+\\- \\\*\\\*Game Section\\\*\\\*
 
-\![onlinebenefits\](/assets/readme/benefitsofonline.png)
+\![game section](/assets/readme/gamesection.png)
 
 Often, clients will choose in-person tutoring over online tutoring, this
 section explains the benefits of choosing online tutoring. This was
@@ -296,49 +293,6 @@ with their children have the correct experience.
 
 \\-
 
-\\\*\\\*Our Events\\\*\\\*
-
-\![events\](/assets/readme/ourevents.png)
-
-This section is designed to promote the events that clients can attend,
-as part of their subscription, to support their children with enjoying
-learning. The events ensure that users have a reason to return to the
-site, in order to check the dates of events running, and to sign up to
-them. It gives the user increased value for their subscription and helps
-to widen the potential base of clients as some events will periodically
-be made free to attend.
-
-\\- \\\*\\\*Footer\\\*\\\*
-
-\![footer\](/assets/readme/footer.png)
-
-The Footer contains the links to the social media and allows the user to
-continue engagement with the company on various platforms.
-
-\\- \\\*\\\*Success Stories page\\\*\\\*
-
-\![successstories\](/assets/readme/successstories.png)
-
-This page contains a more in-depth explanation of the features of the
-subscription and sets out the products that clients will have access to.
-It also reiterates the concept of choosing online, rather than in-person
-tutoring and how this will benefit their family life. It also features
-some success stories from current users who have been supported by
-Pocket Tutor. This has been included to promote the services provide and
-to provide 'real-life' accounts of how the product has helped their
-children. In order to create a database of potential clients, users can
-sign up to receive a free resource at the bottom of the page. This
-serves as a way increase subscriptions to the site and also for users to
-see an example of the resources they would have access to.
-
-[\\- \\\*\\\*Signup page\\\*\\\*]{.mark}
-
-\![signup\](/assets/readme/contactus.png)
-
-This page will allow the user to sign up to Pocket Tutor and subscribe
-to the service/product. The page contains the form, where the user will
-be asked to submit their full name and email address and to give a brief
-explanation of the areas that their child needs support with.
 
 \\## Responsive layout
 
