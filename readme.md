@@ -7,8 +7,8 @@
 
 This project is a website aimed at creating a fun and engaging 'Who
 Wants to Be a Millionaire' style game for children to teach them their
-three times table called \[Who Wants to Be a Times Table
-Millionaire\]\](
+three times table called [Who Wants to Be a Times Table
+Millionaire](
 \*\*\<[[https://mattjones444.github.io/Code-Institute/]{.underline}](https://mattjones444.github.io/Code-Institute/)\>index.html\*\*).
 
 The core purposes of the website:
@@ -24,8 +24,8 @@ The core purposes of the website:
 The website is built using HTML and CSS as a Milestone Project #2 for
 the Code Institute\'s Full Stack Developer course.
 
-[\[The live website is available
-here\](https://mattjones444.github.io/Milestone-Project-2/)]{.mark}
+[The live website is available
+here](https://mattjones444.github.io/Milestone-Project-2/)
 
 \\\_\\\_\\\_
 
@@ -40,8 +40,8 @@ more about the product and how to play the game.
 
 \\- I want to be able to easily navigate and find content.
 
-\\- [I want to find ways to join the community and follow the company on
-different social media.]{.mark}
+\\- I want to find ways to join the community and follow the company on
+different social media.
 
 \\- I want to enjoy playing the game.
 
@@ -49,10 +49,10 @@ different social media.]{.mark}
 
 \\- I want to play the game and beat my score.
 
-\\- [I want to contact the organisation to request additional
-information.]{.mark}
+\\- I want to contact the organisation to request additional
+information.
 
-\\- [I want to join the community.]{.mark}
+\\- I want to join the community.
 
 \\- I want to access the product resource
 
@@ -138,29 +138,24 @@ beat it in the next game.
 \- Engage users with the game and ensure they have the motivation to
 return and beat their score.
 
-[\\## Wireframes]{.mark}
+[## Wireframes]
 
 \\### \\\*\\\*Home\\\*\\\*
 
-\![Home-wireframe (full
-size)\](/assets/readme/homepage-browser.png)
+\![Home-wireframe](/assets/readme/homepage-browser.png)
 
-\![Home-wireframe (full
-size)\](/assets/readme/homepage-mobile.png)
+\![Home-wireframe](/assets/readme/homepage-mobile.png)
 
 \\### \\\*\\\*Rules\\\*\\\*
 
-\![Success Stories wireframe (full
-size)\](/assets/readme/rules-browser.png)
+\![Rules page wireframe](/assets/readme/rules-browser.png)
 
-\![Success Stories wireframe (full
-size)\](/assets/readme/rules-mobile.png)
+\![Rules page wireframe](/assets/readme/rules-mobile.png)
 
 \\### \\\*\\\*Game Screen\\\*\\\*
 
-\![Signup-wireframe (full
-size)\](/assets/readme/game-browser.png)
-(/assets/readme/game-mobile.png)
+\![Game screen wireframe](/assets/readme/game-browser.png)
+\![Game screen wireframe](/assets/readme/game-mobile.png)
 
 \\\_\\\_\\\_
 
