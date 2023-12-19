@@ -5,6 +5,16 @@ body {
   text-decoration: none;
 }
 
+#confetti {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  height: 80%;
+  position: absolute;
+  top: 0;
+}
+
 .navbar {
   background-color: #10053d !important;
   z-index: 1;
@@ -243,7 +253,7 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1em;
   color: #fff;
-  margin-top: 500px;
+  margin-top: 380px;
   background-color: #000;
   outline: none;
   border: none;
@@ -275,7 +285,7 @@ body {
   }
 
   .start-button {
-    margin-top: 650px;
+    margin-top: 470px;
   }
 
   .background-image1 {
@@ -320,7 +330,6 @@ body {
   }
 }
 
-
   @media only screen and (min-width: 878px) {
 
     .lives-tracker{
@@ -329,6 +338,10 @@ body {
       height: 30px;
       position: absolute;
       right: 0;
+    }
+
+    .start-button {
+      margin-top: 470px;
     }
     
     #play-again{
@@ -359,6 +372,10 @@ body {
   #play-again {
       margin-left: 0px;
     }
+
+  .start-button {
+    margin-top: 510px;
+  }
 
   .background-image1 {
     height: 300px;
