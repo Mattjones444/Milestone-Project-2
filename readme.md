@@ -1,6 +1,6 @@
 \\# Who Wants to Be a Times table Millionaire Responsive Website/Game
 
-[\![Website Mock Up\](/assets/readme/mockup.jpg)
+![Website Mock Up](/assets/readme/mockup.jpg)
 
 
 \\# Purpose
@@ -25,7 +25,7 @@ The website is built using HTML and CSS as a Milestone Project #2 for
 the Code Institute\'s Full Stack Developer course.
 
 [\[The live website is available
-here\](https://mattjones444.github.io/Code-Institute/)]{.mark}
+here\](https://mattjones444.github.io/Milestone-Project-2/)]{.mark}
 
 \\\_\\\_\\\_
 
