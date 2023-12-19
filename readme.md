@@ -22,7 +22,7 @@ The core purposes of the website:
 \\- Make learning the three times table fun and engaging for children
 
 The website is built using HTML and CSS as a Milestone Project #2 for
-the Code Institute\'s Full Stack Developer course.
+the Code Institute's Full Stack Developer course.
 
 [The live website is available
 here](https://mattjones444.github.io/Milestone-Project-2/)
@@ -427,33 +427,31 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 \\\*\\\*Home Page\\\*\\\*
 
-Mobile
-
-![Mobile Home](/assets/readme/home-mobile.png)
+![Mobile Home](/assets/readme/mobile-home-pic.png)
 
 Desktop
 
-![Desktop Home](/assets/readme/home-desktop.png)
+![Desktop Home](/assets/readme/desktop-home-pic.png)
 
-\\\*\\\*Success Stories Page\\\*\\\*
-
-Mobile
-
-![Mobile Success Stories](/assets/readme/success-stories-mobile.png)
-
-Desktop
-
-![Desktop Success Stories](/assets/readme/success-stories-desktop.png)
-
-\\\*\\\*Signup Page\\\*\\\*
+\\\*\\\*Rules Page\\\*\\\*
 
 Mobile
 
-![Mobile Signup](/assets/readme/signup-mobile.png)
+![Mobile Success Stories](/assets/readme/rules-mobile-pic.png)
 
 Desktop
 
-![Desktop Signup](/assets/readme/success-stories-desktop.png)
+![Desktop Success Stories](/assets/readme/rules-desktop-pic.png)
+
+\\\*\\\*Game Page\\\*\\\*
+
+Mobile
+
+![Mobile Signup](/assets/readme/game-mobile-pic.png)
+
+Desktop
+
+![Desktop Signup](/assets/readme/game-desktop-pic.png)
 
 \\## Accessibility Testing
 
