@@ -1,6 +1,6 @@
 \\# Who Wants to Be a Times table Millionaire Responsive Website/Game
 
-[\![Website Mock Up\](/assets/readMe/mockup.jpg)
+[\![Website Mock Up\](/assets/readme/mockup.jpg)
 
 
 \\# Purpose
@@ -143,7 +143,7 @@ return and beat their score.
 \\### \\\*\\\*Home\\\*\\\*
 
 \![Home-wireframe (full
-size)\](/assets/readMe/homepage-browser.png)
+size)\](/assets/readme/homepage-browser.png)
 
 \![Home-wireframe (full
 size)\](/assets/readme/homepage-mobile.png)
