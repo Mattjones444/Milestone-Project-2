@@ -245,7 +245,7 @@ Blue to subtly highlight the item without compromising legibility.
 
 \\- \\\*\\\*Navigation bar\\\*\\\*
 
-\![navbar](/assets/readme/navbar.png)
+![navbar](/assets/readme/navbar.png)
 
 Each page has a full responsive navigation bar at the top. It includes
 the [Logo] (which is a link to the Home page) and the links to
@@ -259,9 +259,15 @@ For mobile devices, it transforms into a compact \"hamburger menu\".
 This dropdown menu features the same items, displayed as a column on a
 semi-transparent background.
 
+\\- \\\*\\\*Sparkle Cursor Effect\\\*\\\*
+
+![cursoreffect](/assets/readme/cursoreffect.png)
+
+The sparkle cursor effect, which follows the user's movements, was designed to give a magical experience. It also reinforces the user's understanding that this is a game, particularly as it is designed for children.
+
 \\- \\\*\\\*Welcome Image\\\*\\\*
 
-\![welcomeimage](/assets/readme/welcomeimage.png)
+![welcomeimage](/assets/readme/welcomeimage.png)
 
 This section is the first thing the user sees opening each page, it is
 an eye-catching image for aesthetical stimulation, which also helps to
@@ -272,7 +278,7 @@ context about how the game might function.
 
 \\- \\\*\\\*Rules section\\\*\\\*
 
-\![rulessection](/assets/readme/rulessection.png)
+![rulessection](/assets/readme/rulessection.png)
 
 The ethos section will introduce the user to the concept of Pocket
 Tutor, as it is slightly different to the usual way tutoring works. The
@@ -282,7 +288,7 @@ accessing the sign up page, which will book a call with the Sales Team.
 
 \\- \\\*\\\*Game Section\\\*\\\*
 
-\![game section](/assets/readme/gamesection.png)
+![game section](/assets/readme/gamesection.png)
 
 Often, clients will choose in-person tutoring over online tutoring, this
 section explains the benefits of choosing online tutoring. This was
@@ -314,6 +320,8 @@ users to play the same game, based on other times tables.
 
 Adaptions will need to be made to the code so that the random numbers
 generated for the answer options is not replicated in the same question.
+
+There is occasional interference on the hover effects caused by the cursor effect, where the highlighting colour flashes. Given more time to refine the site, this would be something to look into. 
 
 Moving forward, it would improve the user experience if the levels of
 the game were organised in a hierarchical manner, so that the user would
@@ -403,72 +411,73 @@ Desktops, tablets and multiple mobile devices (macOS and Android).
 
 \\## Automated Testing
 
-1\\. \\\*\\\*\[W3 Markup Validation\](https://validator.w3.org/) - HTML
-Validation\\\*\\\*
+1\\. [W3 Markup Validation](https://validator.w3.org/) - HTML
+Validation
 
 All pages were run through HTML Validator. No errors were detected.
 
-2\\. \\\*\\\*\[W3 Jigsaw\](https://jigsaw.w3.org/css-validator/) - CSS
+2\\. [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS
 Validation\\\*\\\*
 
 CSS Stylesheet was run through CSS Validator. No errors were detected.
 
-3\\. \\\*\\\*\[Google
-Lighthouse\](https://developers.google.com/web/tools/lighthouse)\\\*\\\*
+3\\. [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+3\\. [JS Lint](https://www.jslint.com/)
 
 \\\*\\\*Home Page\\\*\\\*
 
 Mobile
 
-\![Mobile Home\](/assets/readme/home-mobile.png)
+![Mobile Home](/assets/readme/home-mobile.png)
 
 Desktop
 
-\![Desktop Home\](/assets/readme/home-desktop.png)
+![Desktop Home](/assets/readme/home-desktop.png)
 
 \\\*\\\*Success Stories Page\\\*\\\*
 
 Mobile
 
-\![Mobile Success Stories\](/assets/readme/success-stories-mobile.png)
+![Mobile Success Stories](/assets/readme/success-stories-mobile.png)
 
 Desktop
 
-\![Desktop Success Stories\](/assets/readme/success-stories-desktop.png)
+![Desktop Success Stories](/assets/readme/success-stories-desktop.png)
 
 \\\*\\\*Signup Page\\\*\\\*
 
 Mobile
 
-\![Mobile Signup\](/assets/readme/signup-mobile.png)
+![Mobile Signup](/assets/readme/signup-mobile.png)
 
 Desktop
 
-\![Desktop Signup\](/assets/readme/success-stories-desktop.png)
+![Desktop Signup](/assets/readme/success-stories-desktop.png)
 
 \\## Accessibility Testing
 
 \\### Screen Reader for Goggle Chrome
 
-The website was tested with \[Screen Reader for Goggle
-Chrome\](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en).
+The website was tested with [Screen Reader for Goggle
+Chrome](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en).
 No issues arose.
 
 \\### Toptal Colorfilter
 
 The website was tested with Toptal
-\[Colorfilter\](https://www.toptal.com/designers/colorfilter/) to make
+[Colorfilter](https://www.toptal.com/designers/colorfilter/) to make
 sure it is accessible for colour-blind users. No accessibility issues
 were detected.
 
-\[Result preview
-1\](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Code-Institute/&process_type=protan)
+[Result preview
+1](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Milestone-Project-2/&process_type=protan)
 
-\[Result preview
-2\](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Code-Institute/success-stories.html&process_type=protan)
+[Result preview
+2](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Milestone-Project-2/rules.html&process_type=protan)
 
-\[Result preview
-3\](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Code-Institute/signup.html&process_type=protan)
+[Result preview
+3](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Milestone-Project-2/gameScreen1.html&process_type=protan)
 
 \\\_\\\_\\\_
 
@@ -490,7 +499,7 @@ follows:
 
 1\\. Log into GitHub.
 
-2\\. Select \`codeinstitute\` from the list of repositories.
+2\\. Select \`milestone-project-2\` from the list of repositories.
 
 3\\. Select \`Settings\` From the Repositories sub-headings.
 
