@@ -140,7 +140,7 @@ body {
 
 #question-answer {
   background-color: black;
-  height: 450px;
+  height: 550px;
   border-top: grey solid 3px;
   color: #fff;
   font-size: 27px;
@@ -253,7 +253,7 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1em;
   color: #fff;
-  margin-top: 380px;
+  margin-top: 550px;
   background-color: #000;
   outline: none;
   border: none;
@@ -285,7 +285,7 @@ body {
   }
 
   .start-button {
-    margin-top: 470px;
+    margin-top: 620px;
   }
 
   .background-image1 {
@@ -341,7 +341,7 @@ body {
     }
 
     .start-button {
-      margin-top: 470px;
+      margin-top: 620px;
     }
     
     #play-again{
@@ -374,7 +374,7 @@ body {
     }
 
   .start-button {
-    margin-top: 510px;
+    margin-top: 650px;
   }
 
   .background-image1 {
