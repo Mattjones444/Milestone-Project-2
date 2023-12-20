@@ -94,6 +94,7 @@ body {
 .start-game1 {
   display: flex;
   justify-content: center;
+  margin-top: -50px;
 }
 
 .start-button1 {
@@ -101,7 +102,6 @@ body {
     display: inline-block;
     font-size: 1em;
     color: #fff;
-    margin-top: -20px;
     background-color: #000;
     outline: none;
     border: none;
@@ -253,7 +253,7 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1em;
   color: #fff;
-  margin-top: 550px;
+  margin-top: 430px;
   background-color: #000;
   outline: none;
   border: none;
@@ -285,7 +285,7 @@ body {
   }
 
   .start-button {
-    margin-top: 620px;
+    margin-top: 530px;
   }
 
   .background-image1 {
@@ -314,7 +314,7 @@ body {
 
   .background-image1 {
     background-image: url(/assets/images/background-image.png);
-    height: 300px;
+    height: 200px;
     object-fit: contain;
     width: 100%;
     position: relative;
@@ -341,7 +341,7 @@ body {
     }
 
     .start-button {
-      margin-top: 620px;
+      margin-top: 530px;
     }
     
     #play-again{
@@ -350,7 +350,7 @@ body {
 
     .background-image1 {
       background-image: url(/assets/images/larger-background.jpeg);
-      height: 300px;
+      height: 200px;
       width: 100%;
       position: relative;
       z-index: -1;
@@ -374,11 +374,11 @@ body {
     }
 
   .start-button {
-    margin-top: 650px;
+    margin-top: 550px;
   }
 
   .background-image1 {
-    height: 300px;
+    height: 200px;
   }
 
   .end-game-lose {
@@ -403,7 +403,7 @@ body {
 
   .background-image1 {
     background-image: url(/assets/images/larger-background.jpeg);
-    height: 500px;
+    height: 300px;
     max-width: 100%;
     position: relative;
     z-index: -1;

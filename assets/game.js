@@ -118,12 +118,6 @@ $(document).ready(function() {
   let correctAnswer;
   const totalQuestions = 10;
 
-  function generateQuestion() {
-    let operand2 = Math.floor(Math.random() * 13);
-    let questionText = operand1 + " x " + operand2;
-    return questionText;
-  }
-
   function generateRandomMultipleOfThree() {
     const randomNumber = Math.floor(Math.random() * 10) + 1;
     return Math.ceil(randomNumber / 3) * 3;
