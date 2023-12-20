@@ -1,4 +1,5 @@
 
+/*Start Screen*/
 body {
   height: 100%;
   background-color: #02024c;
@@ -20,12 +21,12 @@ body {
   z-index: 1;
 }
 
-.navbar-brand{
-  color:#fff;
+.navbar-brand {
+  color: #fff;
   padding-left: 20px;
 }
 
-#play-again{
+#play-again {
   margin-left: -50px;
 }
 
@@ -37,13 +38,13 @@ body {
   color: yellow;
 }
 
-#jumbotron{
+#jumbotron {
   height: 550px;
-  width:100%;
+  width: 100%;
   background-color: #02024c
 }
 
-.sticker{
+.sticker {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -54,11 +55,12 @@ body {
   bottom: 0;
 }
 
-.start-button-wrapper{
-  display:flex;
+.start-button-wrapper {
+  display: flex;
   justify-content: center;
 }
 
+/*Rules Screen*/
 .rules-wrapper {
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,7 +69,7 @@ body {
   place-items: center;
   height: 700px;
   margin-top: -20px;
-   background-color: #02024c;
+  background-color: #02024c;
 }
 
 .rules {
@@ -76,7 +78,7 @@ body {
   height: 75%;
   border: 5px solid gold;
   z-index: 2;
- background-color: #000;
+  background-color: #000;
   margin-top: -40px;
 }
 
@@ -87,7 +89,7 @@ body {
   padding-top: 20px;
 }
 
-.rules-text{
+.rules-text {
   font-size: 17px;
 }
 
@@ -98,33 +100,33 @@ body {
 }
 
 .start-button1 {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    display: inline-block;
-    font-size: 1em;
-    color: #fff;
-    background-color: #000;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 20px 20px;
-    border-radius: 20px;
-    box-shadow: 0 20px #8D65A2;
-  }
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  font-size: 1em;
+  color: #fff;
+  background-color: #000;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 0 20px #8D65A2;
+}
 
-  .start-button1:hover {
-    box-shadow: 0 4px #8D65A2;
-    top: 2px;
-  }
+.start-button1:hover {
+  box-shadow: 0 4px #8D65A2;
+  top: 2px;
+}
 
-  .start-button1:active {
-    box-shadow: none;
-    top: 6px;
-  }
-  
+.start-button1:active {
+  box-shadow: none;
+  top: 6px;
+}
+
 /* Game Area */
 
 .background-image1 {
@@ -149,15 +151,15 @@ body {
 
 .question-box {
   width: 200px;
-      height: 50px;
-      background: transparent;
-      border-radius: 140px / 50px;
-      border: silver solid 3px;
-      color: #fff;
-      justify-content: center;
-      text-align: center;
-      margin: 30px auto;
-      font-size: 30px;
+  height: 50px;
+  background: transparent;
+  border-radius: 140px / 50px;
+  border: silver solid 3px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 30px;
 }
 
 .answer-wrapper {
@@ -167,7 +169,7 @@ body {
   width: 280px;
   padding-top: 30px;
   display: flex;
-   justify-content: center;
+  justify-content: center;
 }
 
 .answer-option {
@@ -184,13 +186,13 @@ body {
   height: 90px;
 }
 
-.answer-option:hover{
+.answer-option:hover {
   background-color: gold;
 }
 
-.options{
-  display:flex;
-  justify-content:center;
+.options {
+  display: flex;
+  justify-content: center;
 }
 
 .score-display {
@@ -198,7 +200,7 @@ body {
   z-index: 50;
   background-color: green;
   color: #000;
-  height:40px;
+  height: 40px;
   font-size: 22px;
   display: flex;
   justify-content: center;
@@ -208,7 +210,7 @@ body {
   position: relative;
   z-index: 50;
   background-color: red;
-   height:40px;
+  height: 40px;
   color: #000;
   font-size: 18px;
   display: flex;
@@ -219,13 +221,13 @@ body {
   color: #fff;
   width: 100%;
   background-color: #10053d;
-  height:30px;
+  height: 30px;
   padding-left: 20px;
   border: grey solid 3px;
 }
 
-.lives-tracker{
-  padding-right:20px;
+.lives-tracker {
+  padding-right: 20px;
   margin-top: -36px;
   height: 30px;
   position: absolute;
@@ -236,24 +238,24 @@ body {
   background-image: url(/assets/images/end-game-image.png);
   background-repeat: no-repeat;
   background-size: 100% 200px;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-.end-game-win{
+.end-game-win {
   background-image: url(/assets/images/end-game-image.png);
   background-repeat: no-repeat;
   background-size: 100% 200px;
-  display:flex;
+  display: flex;
   justify-content: center;
-  
+
 }
 
 .start-button {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1em;
   color: #fff;
-  margin-top: 430px;
+  margin-top: 490px;
   background-color: #000;
   outline: none;
   border: none;
@@ -275,11 +277,11 @@ body {
   box-shadow: none;
   top: 6px;
 }
-  
+
 /* Media Queries */
 
 @media only screen and (min-width: 550px) {
-  .sticker{
+  .sticker {
     width: 400px;
     height: 400px;
   }
@@ -300,15 +302,15 @@ body {
 
 @media only screen and (min-width: 630px) {
 
-  .lives-tracker{
-    padding-right:20px;
+  .lives-tracker {
+    padding-right: 20px;
     margin-top: -42px;
     height: 30px;
     position: absolute;
     right: 0;
   }
 
-  #play-again{
+  #play-again {
     margin-left: -400px;
   }
 
@@ -330,48 +332,48 @@ body {
   }
 }
 
-  @media only screen and (min-width: 878px) {
+@media only screen and (min-width: 878px) {
 
-    .lives-tracker{
-      padding-right:20px;
-      margin-top: -46px;
-      height: 30px;
-      position: absolute;
-      right: 0;
-    }
-
-    .start-button {
-      margin-top: 530px;
-    }
-    
-    #play-again{
-      margin-left: -620px;
-    }
-
-    .background-image1 {
-      background-image: url(/assets/images/larger-background.jpeg);
-      height: 200px;
-      width: 100%;
-      position: relative;
-      z-index: -1;
-      background-size:cover;
-      background-repeat: no-repeat;
-    }
-
-    .rules-header {
-      font-size: 50px;
-    }
-
-    .rules-text {
-      font-size: 22px;
-    }
+  .lives-tracker {
+    padding-right: 20px;
+    margin-top: -46px;
+    height: 30px;
+    position: absolute;
+    right: 0;
   }
 
-@media only screen and (min-width: 991px) {
-  
+  .start-button {
+    margin-top: 530px;
+  }
+
   #play-again {
-      margin-left: 0px;
-    }
+    margin-left: -620px;
+  }
+
+  .background-image1 {
+    background-image: url(/assets/images/larger-background.jpeg);
+    height: 200px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .rules-header {
+    font-size: 50px;
+  }
+
+  .rules-text {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+
+  #play-again {
+    margin-left: 0px;
+  }
 
   .start-button {
     margin-top: 550px;
@@ -388,18 +390,18 @@ body {
     margin-left: 150px;
     margin-right: 150px;
   }
-  }
-  
+}
+
 
 @media only screen and (min-width: 1109px) {
 
-  .lives-tracker{
-      padding-right:20px;
-      margin-top: -50px;
-      height: 30px;
-      position: absolute;
-      right: 0;
-    }
+  .lives-tracker {
+    padding-right: 20px;
+    margin-top: -50px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+  }
 
   .background-image1 {
     background-image: url(/assets/images/larger-background.jpeg);
@@ -407,7 +409,7 @@ body {
     max-width: 100%;
     position: relative;
     z-index: -1;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
   }
@@ -422,5 +424,9 @@ body {
     background-size: 600px 300px;
     margin-left: 350px;
     margin-right: 350px;
+  }
+
+  .start-button {
+    margin-top: 550px;
   }
 }
