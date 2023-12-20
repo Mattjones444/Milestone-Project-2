@@ -39,7 +39,7 @@ body {
 }
 
 #jumbotron {
-  height: 550px;
+  height: 800px;
   width: 100%;
   background-color: #02024c
 }
@@ -316,7 +316,7 @@ body {
 
   .background-image1 {
     background-image: url(/assets/images/background-image.png);
-    height: 200px;
+    height: 400px;
     object-fit: contain;
     width: 100%;
     position: relative;
@@ -329,6 +329,11 @@ body {
     background-size: 600px 300px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+  
+  body {
+    background-color:#000;
+
   }
 }
 
@@ -352,7 +357,7 @@ body {
 
   .background-image1 {
     background-image: url(/assets/images/larger-background.jpeg);
-    height: 200px;
+    height: 600px;
     width: 100%;
     position: relative;
     z-index: -1;
@@ -367,6 +372,11 @@ body {
   .rules-text {
     font-size: 22px;
   }
+
+  body {
+    background-color:#000;
+
+  }
 }
 
 @media only screen and (min-width: 991px) {
@@ -380,7 +390,7 @@ body {
   }
 
   .background-image1 {
-    height: 200px;
+    height: 600px;
   }
 
   .end-game-lose {
@@ -429,4 +439,6 @@ body {
   .start-button {
     margin-top: 650px;
   }
+
+
 }
