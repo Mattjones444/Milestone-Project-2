@@ -251,11 +251,11 @@ For mobile devices, it transforms into a compact \"hamburger menu\".
 This dropdown menu features the same items, displayed as a column on a
 semi-transparent background.
 
-Sparkle Cursor Effect
+Confetti Background Effect
 
 ![cursoreffect](/assets/readme/cursoreffect.png)
 
-The sparkle cursor effect, which follows the user's movements, was designed to give a magical experience. It also reinforces the user's understanding that this is a game, particularly as it is designed for children.
+The confetti background effect, which falls from the top of the screen to the bottom of the badge on the index.html, was designed to give a magical experience. It also reinforces the user's understanding that this is a game, particularly as it is designed for children.
 
 Welcome Image
 
@@ -390,10 +390,7 @@ All Features were tested manually, find the results below.
 The website was tested in three browsers: Chrome, Firefox and Safari on
 Desktops, tablets and multiple mobile devices (macOS and Android).
 
-![Featurestesting](/assets/readme/milestonetwotesting.png)
-
-![Features Testing results:]
-[Excel](/assets/readme/Milestoneonetesting.xlsx), [Excel]
+![Featurestesting](/assets/readme/milestonetwotesting.xlsx)
 
 ## Automated Testing
 
