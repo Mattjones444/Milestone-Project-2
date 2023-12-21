@@ -13,9 +13,9 @@ Millionaire](
 
 The core purposes of the website:
 
-- introduce the three times table to children.
+- Introduce the three times table to children.
 
-- teach children the multiplication facts from the three times table..
+- Teach children the multiplication facts from the three times table..
 
 - Build the children's confidence in learning the three times table.
 
@@ -214,9 +214,7 @@ for screens larger than 992px.
 
 #### Logo and Page Headings Gradient
 
-The product has a basic logo at the moment, which still needs further
-work as it was made purely for the purposes of this project. Work needs
-to be done to make it stand out further.
+The product has a basic logo at the moment, matching the logo users will be aware of from the TV show, however further work could be done to adapt this for the product.
 
 #### Buttons
 
@@ -239,9 +237,7 @@ Navigation bar
 
 ![navbar](/assets/readme/navbar.png)
 
-Each page has a full responsive navigation bar at the top. It includes
-the [Logo] (which is a link to the Home page) and the links to
-Home and game pages. It retains an identical layout throughout the
+Each page has a full responsive navigation bar at the top. It retains an identical layout throughout the
 website across all devices to ensure simple and intuitive navigation.
 The Navbar will allow the user to reach any section of the website from
 any point on the website without unnecessary steps and using browser
@@ -253,7 +249,7 @@ semi-transparent background.
 
 Confetti Background Effect
 
-![cursoreffect](/assets/readme/cursoreffect.png)
+![cursoreffect](/assets/readme/confetti.png)
 
 The confetti background effect, which falls from the top of the screen to the bottom of the badge on the index.html, was designed to give a magical experience. It also reinforces the user's understanding that this is a game, particularly as it is designed for children.
 
@@ -299,7 +295,7 @@ smaller image format. It was considered necessary because the images
 play a significant role in delivering the semantics of the website and
 providing the intended user experience.
 
-![Responsiveness testing results:]
+Responsiveness testing results:
 [Excel](/assets/readme/responsivenesstesting.xlsx), [Excel]]
 
 ## Future Considerations
@@ -309,8 +305,6 @@ users to play the same game, based on other times tables.
 
 Adaptions will need to be made to the code so that the random numbers
 generated for the answer options is not replicated in the same question.
-
-There is occasional interference on the hover effects caused by the cursor effect, where the highlighting colour flashes. Given more time to refine the site, this would be something to look into. 
 
 Moving forward, it would improve the user experience if the levels of
 the game were organised in a hierarchical manner, so that the user would
@@ -334,8 +328,6 @@ Pages to deploy and host the live site.
 - Git to provide version control (to commit and push code to the
 repository).
 
-- [FontAwesome](https://fontawesome.com/) v5.15.1 Icons.
-
 - [Google Fonts](https://fonts.google.com/) for typography.
 
 - [Google Chrome Dev
@@ -351,9 +343,6 @@ favicon.
 palette from image.
 
 - [Balsamiq](https://balsamiq.com/wireframes/) to design wireframes.
-
-- [Techsini](https://tecnisih.com) to create the Mockup image in
-this README.
 
 - Google Chrome's
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) to
@@ -494,7 +483,7 @@ Due to issues with Codeanywhere during the creation of this project, I decided t
 
 ## Media
 
-- all images were sourced from Canva.com
+- all images were sourced from Canva.com and Google.com
 
 - favicon.ico was created by me.
 
