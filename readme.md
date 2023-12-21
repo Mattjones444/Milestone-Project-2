@@ -166,7 +166,7 @@ learning element to the game.
 
 ### Colour Scheme
 
-![Palette](/assets/readme/colour-palette.png)
+![Palette](/assets/readme/color-palette.png)
 
 The conventional, modern, solid colour palette choice serves to engender
 trust, academia and professionalism, whilst maintaining a modern feel.
@@ -264,7 +264,7 @@ an eye-catching image for aesthetical stimulation, which also helps to
 deliver the page's semantics as visual associations are commonly very
 strong. On the Home page, the image gives the use a familiar image to
 hook into, which uses their prior knowledge of the TV show to give them
-context about how the game might function.
+context about how the game might function. At the bottom of the page are the social community links, which are animated as the user scrolls over them. 
 
 Rules section
 
@@ -393,11 +393,13 @@ All pages were run through HTML Validator. No errors were detected.
 2. [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS
 Validation
 
-CSS Stylesheet was run through CSS Validator. No errors were detected.
+CSS Stylesheet was run through CSS Validator. No major unexplained errors were detected.
 
 3. [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-3. [JS Lint](https://www.jslint.com/)
+3. [JS Lint](https://www.jslint.com/) - JS Lint Validation
+
+   Javascript code was run through JS Lint. Here warnings were flagged but these related to JS Lint flagging the use of $ as part of Jquery. 
 
 Home Page
 

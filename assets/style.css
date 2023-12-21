@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap');
 
 /*Start Screen*/
 body {
@@ -146,7 +147,6 @@ body {
   border-top: grey solid 3px;
   color: #fff;
   font-size: 27px;
-
 }
 
 .question-box {
@@ -393,6 +393,7 @@ textarea {
   border-color: #125688;
 }
 
+
 /* Media Queries */
 
 @media only screen and (min-width: 370px) {
@@ -585,13 +586,3 @@ textarea {
   }
 }
 
-
-/* Media Query fix for iPad Pro */
-@media only screen 
-and (min-device-width: 1024px) 
-and (max-device-width: 1366px) {
-
-  .startbutton {
-    margin-top: 900px;
-  }
-}
