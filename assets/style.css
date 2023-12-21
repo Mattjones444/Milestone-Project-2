@@ -39,7 +39,7 @@ body {
 }
 
 #jumbotron {
-  height: 800px;
+  height: 1700px;
   width: 100%;
   background-color: #02024c
 }
@@ -96,7 +96,7 @@ body {
 .start-game1 {
   display: flex;
   justify-content: center;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 
 .start-button1 {
@@ -255,7 +255,7 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1em;
   color: #fff;
-  margin-top: 490px;
+  margin-top: 400px;
   background-color: #000;
   outline: none;
   border: none;
@@ -278,7 +278,129 @@ body {
   top: 6px;
 }
 
+/* Answer Section */
+
+footer {
+  margin-top: 50px;
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-tiktok, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.tiktok {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.tiktok:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
 /* Media Queries */
+
+@media only screen and (min-width: 370px) {
+
+  .start-button {
+    margin-top: 420px;
+  }
+}
 
 @media only screen and (min-width: 550px) {
   .sticker {
@@ -287,7 +409,7 @@ body {
   }
 
   .start-button {
-    margin-top: 830px;
+    margin-top: 770px;
   }
 
   .background-image1 {
@@ -335,6 +457,10 @@ body {
     background-color:#000;
 
   }
+
+  .rules-wrapper {
+    height: 1000px;
+  }
 }
 
 @media only screen and (min-width: 878px) {
@@ -375,7 +501,10 @@ body {
 
   body {
     background-color:#000;
+  }
 
+  .rules-wrapper {
+    height: 1000px;
   }
 }
 
@@ -386,7 +515,7 @@ body {
   }
 
   .start-button {
-    margin-top: 550px;
+    margin-top: 880px;
   }
 
   .background-image1 {
@@ -399,6 +528,10 @@ body {
     background-size: 600px 300px;
     margin-left: 150px;
     margin-right: 150px;
+  }
+
+  .rules-wrapper {
+    height: 1000px;
   }
 }
 
@@ -437,8 +570,28 @@ body {
   }
 
   .start-button {
-    margin-top: 650px;
+    margin-top: 580px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+
+  .start-button {
+    margin-top: 620px;
   }
 
+  .rules-wrapper {
+    height: 1000px;
+  }
+}
 
+
+/* Media Query fix for iPad Pro */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) {
+
+  .startbutton {
+    margin-top: 900px;
+  }
 }

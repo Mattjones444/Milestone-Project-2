@@ -84,6 +84,8 @@ concepts users have seen in other formats.
 - Initiate future engagement by challenging the user to complete the
 game.
 
+- Encourage users to join the community online for the game, sharing their experiences and scores. 
+
 ### Rules Page
 
 - Outlines the key function of the game and rules..
@@ -296,7 +298,7 @@ play a significant role in delivering the semantics of the website and
 providing the intended user experience.
 
 Responsiveness testing results:
-[Excel](/assets/readme/responsivenesstesting.xlsx), [Excel]]
+[Excel](/assets/readme/responsivenesstesting.xlsx)
 
 ## Future Considerations
 
